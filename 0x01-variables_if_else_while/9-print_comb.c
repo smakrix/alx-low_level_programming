@@ -2,7 +2,6 @@
 
 /**
  * main - this will prints all possible combinations of single-digit numbers
- *
  * Return: Always 0.
  */
 int main(void)
@@ -14,7 +13,7 @@ int main(void)
 		putchar((number % 10) + '0');
 		if (number == 9)
 			continue;
-		
+
 		putchar(',');
 		putchar(' ');
 	}
